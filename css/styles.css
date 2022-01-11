@@ -1,0 +1,82 @@
+* {
+	font-family: "Open Sans", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #666;
+	color: rgb(143, 143, 143);
+	line-height: 1.6;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	min-width: 50px;
+	min-height: 50px;
+	background-color: #eee;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 3rem;
+	font-size: 1rem;
+	color: #333;
+}
+
+p {
+	margin: 10px 0;
+}
+
+img {
+	width: 100%;
+}
+
+.article {
+	max-width: 1200px;
+}
+
+.page {
+	background-color: #eee;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 5px 5px 5px #333;
+}
+
+/* Animations */
+h1:target,
+h2:target,
+h3:target,
+h4:target,
+h5:target,
+h6 {
+	animation: highlight 1s ease;
+}
+
+@keyframes highlight {
+	from {
+		background-color: yellow;
+	}
+	to {
+		background-color: white;
+	}
+}
